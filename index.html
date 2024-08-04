@@ -1,197 +1,8 @@
 <!DOCTYPE html>
 <html>
-
+	<link rel="stylesheet" href="style.css">
 <head>
-		<style>
-	html
-	{background: url(https://i.ibb.co/2sJNy6M/6227297.jpg);}
-	
-	body 
-	{background-color :#D8DAD2;
-	font-family: 'Playfair Display', serif;
-	font-size: 20px;
-	display: block;
-	margin: auto;
-	width: 952px;
-	color: #697086;}
-	
-	a
-	{text-decoration: none;}
-	
-	/* HEADLINE AREA */
-	.case_headline
-	{
-	display: block;
-	background-color: #D8DAD2;
-	font-family: 'Cinzel', serif;
-	border-color: white;
-	border-width: 26px;
-	border-style: solid;
-	width: 900px;
-	text-align: center;}
-	
-	.case_headline img
-	{max-width: 400px;}
-			
-	/*MAIN CONTENT AREA */
-	#case_main
-	{display: flex;
-	background-color: white;
-	flex-direction: row-reverse;
-	width: 951px;
-	text-align: center;}
-	
-	.main_content img
-	{width: 55%;
-	height: 55%;}
-	
-	/* MENU AREA */
-	.headshot img
-	{width: 100px;}
-	
-	.main_menu
-	{background-color :#D8DAD2;
-	font-family: 'Cinzel', serif;
-	font-size: 15px;
-	display: block;
-	height: 100%;
-	width: 200px;} 
-	
-	.navlinks
-	{display: block;
-	padding: 20px;
-	text-align: center;
-	color:black;
-	text-decoration: none;
-	transition: .25s ease;}
-	
-	.navlinks img
-	{width: 25%;
-	height: 25%;}
-	
-	.navlinks:hover
-	{box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	color: #697086;}
-	
-	#active
-	{background-color: #EEE5BF;}
-	
-	/* HIDE MOBILE MENU */
-	#mobilemenu, #mobilebutton
-	{display: none;}
-	
-	.case_content
-	{padding: 10px;
-	margin: 40px;}
-	
-	#content figcaption
-	{font-size: 15px;}
-	
-	#content img
-	{border-radius: 25px;}
-	
-	/* footer area */
-	footer
-	{background-color: #D8DAD2;
-	display: block;
-	font-family: 'Cinzel Decorative', cursive;
-	font-size: 25px;
-	text-align: center;
-	border-color: white;
-	border-width: 26px;
-	border-style: solid;
-	margin: auto;
-	width: 879px;
-	padding: 10px;}
-
-	
-	@media (max-width: 852px) 
-	{
-		h1 {font-size: 2em;}
 		
-		body 
-		{background-color: #D8DAD2;
-		font-family: 'Raleway', sans-serif;
-		font-size: 25px;
-		width: 80vw;}
-		
-		/* HEADLINE AREA */
-		.case_headline
-		{display: block;
-		position: relative;
-		background-color: #D8DAD2;
-		border: none !important;
-		width: 80vw;}
-	
-		.case_headline img
-		{max-width: 40vw;}
-		
-		/* HIDE MAIN MENU */
-		#navbar .main_menu
-		{display: none;}
-		
-		#mobilemenu
-		{display: block !important;}
-		
-		/* MOBILE MENU */
-		.mobile_menu  {
-		  width: 0;
-		  position: fixed;
-		  z-index: 1;
-		  height: 100vh;
-		  top: 0;
-		  left: 0;
-		  background-color: #111;
-		  overflow-x: hidden;
-		  transition: 0.5s;
-		  padding-top: 60px;}
-
-		.mobile_menu a {
-		  padding: 8px 8px 8px 32px;
-		  text-decoration: none;
-		  font-size: 25px;
-		  color: #818181;
-		  display: block;
-		  transition: 0.3s;}
-
-		.mobile_menu a:hover {
-		  color: #f1f1f1;}
-
-		.mobile_menu .closebtn {
-		  position: absolute;
-		  top: 0;
-		  right: 25px;
-		  font-size: 36px;}
-
-		.openbtn 
-		{font-size: 20px;
-		cursor: pointer;
-		background-color: #D8DAD2;
-		color: #697086;
-	    padding: 10px 15px;
-		border: none;
-		width: 80vw;}
-
-		.openbtn:hover 
-		{background-color:#697086;
-		color: white;}
-				
-		/*MAIN CONTENT AREA */
-		#case_main
-		{display: block;
-		width: 80vw;
-		text-align: center;}		
-		
-		/* footer area */
-		footer
-		{background-color: #D8DAD2;
-		display: block;
-		font-family: 'Cinzel Decorative', cursive;
-		font-size: 20px;
-		border: none !important;
-		width: 62vw;}
-	}
-	</style>
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="google-site-verification" content="zU6qBFXpaUf5cT_DJafikLxpUyTNWR4RLoBUiHeQ0AU" />
@@ -240,21 +51,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<nav id="navbar">
 				<div class="main_menu">
 				<a href="#" class="navlinks" id="active"><img src="https://i.ibb.co/2jFJktL/home.png" alt="home_icon"><br>HOME</a>
-				<a href="/$/audio/" class="navlinks"><img src="https://i.ibb.co/Fwv2Bwq/music-note.png" alt="audio_icon"><br>AUDIO</a>
-				<a href="/$/design/" class="navlinks"><img src="https://i.ibb.co/vzdWjFT/paint-palette.png" alt="graphics_icon"><br>DESIGN</a>
-				<a href="/$/shop/" class="navlinks"><img src="https://i.ibb.co/5cQsXnJ/shopping-cart.png" alt="shop_icon"><br>SHOP</a>
+				<a href="/audio/" class="navlinks"><img src="https://i.ibb.co/Fwv2Bwq/music-note.png" alt="audio_icon"><br>AUDIO</a>
+				<a href="/design/" class="navlinks"><img src="https://i.ibb.co/vzdWjFT/paint-palette.png" alt="graphics_icon"><br>DESIGN</a>
+				<a href="/shop/" class="navlinks"><img src="https://i.ibb.co/5cQsXnJ/shopping-cart.png" alt="shop_icon"><br>SHOP</a>
 				<a href="https://kwamedeswan.wordpress.com/blog" class="navlinks"><img src="https://i.ibb.co/wdjxG30/blog-icon.png" alt="blog_icon"><br>BLOG</a>
-				<a href="/$/about/" class="navlinks"><img src="https://i.ibb.co/pLLtdVG/mailing.png" alt="contact_icon"><br>ABOUT & CONTACT</a>
+				<a href="/about/" class="navlinks"><img src="https://i.ibb.co/pLLtdVG/mailing.png" alt="contact_icon"><br>ABOUT & CONTACT</a>
 				</div>
 				
 				<div id="mobilemenu" class="mobile_menu">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
 					<a href="#">HOME</a>
-					<a href="/$/audio">AUDIO</a>
-					<a href="/$/design">DESIGN</a>
-					<a href="/$/shop">SHOP</a>
+					<a href="/audio">AUDIO</a>
+					<a href="/design">DESIGN</a>
+					<a href="/shop">SHOP</a>
 					<a href="https://kwamedeswan.wordpress.com/blog">BLOG</a>
-					<a href="/$/about">ABOUT & CONTACT</a>
+					<a href="/about">ABOUT & CONTACT</a>
 				</div>
 				<button id="mobilebutton" class="openbtn" onclick="openNav()">☰ MENU</button>
 <script>
