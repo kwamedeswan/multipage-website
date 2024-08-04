@@ -1,0 +1,223 @@
+html {
+    background: url(https://i.ibb.co/2sJNy6M/6227297.jpg);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+body {
+    background-color: #D8DAD2;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    width: 952px;
+    color: #697086;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADLINE AREA */
+.case_headline {
+    display: block;
+    background-color: #D8DAD2;
+    font-family: 'Cinzel Decorative', cursive;
+    border-color: white;
+    border-width: 26px;
+    border-style: solid;
+    width: 900px;
+    text-align: center;
+}
+
+/*MAIN CONTENT AREA */
+#case_main {
+    display: flex;
+    background-color: white;
+    flex-direction: row-reverse;
+    width: 951px;
+    text-align: center;
+}
+
+/* MENU AREA */
+.main_menu {
+    background-color: #D8DAD2;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    display: block;
+    height: 100%;
+    width: 200px;
+}
+
+.navlinks {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: .25s ease;
+}
+
+.navlinks img {
+    width: 25%;
+    height: 25%;
+}
+
+.navlinks:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    color: #697086;
+}
+
+#active {
+    background-color: #EEE5BF;
+}
+
+/* HIDE MOBILE MENU */
+#mobilemenu,
+#mobilebutton {
+    display: none;
+}
+
+.case_content {
+    padding: 10px;
+    margin: 40px;
+}
+
+.case_content a {
+    color: #697086;
+}
+
+#content figcaption {
+    font-size: 15px;
+}
+
+#content img {
+    border-radius: 25px;
+}
+
+.graphics {
+    transition: transform 0.25s ease;
+}
+
+.graphics:hover {
+    -webkit-transform: scale(1.5);
+    /* or some other value */
+    transform: scale(1.5);
+}
+
+/* footer area */
+footer {
+    background-color: #D8DAD2;
+    display: block;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 25px;
+    text-align: center;
+    border-color: white;
+    border-width: 26px;
+    border-style: solid;
+    margin: auto;
+    width: 879px;
+    padding: 10px;
+}
+
+
+@media (max-width: 951px) {
+    h1 {
+        font-size: 1em;
+    }
+
+    body {
+        background-color: #D8DAD2;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        width: 80vw;
+    }
+
+    /* HEADLINE AREA */
+    .case_headline {
+        display: block;
+        position: relative;
+        background-color: #D8DAD2;
+        font-family: 'Cinzel Decorative', cursive;
+        border: none !important;
+        width: 80vw;
+        text-align: center;
+    }
+
+    /* HIDE MAIN MENU */
+    #navbar .main_menu {
+        display: none;
+    }
+
+    #mobilemenu {
+        display: block !important;
+    }
+
+    /* MOBILE MENU */
+    .mobile_menu {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .mobile_menu a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .mobile_menu a:hover {
+        color: #f1f1f1;
+    }
+
+    .mobile_menu .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #D8DAD2;
+        color: #697086;
+        padding: 10px 15px;
+        border: none;
+        width: 80vw;
+    }
+
+    .openbtn:hover {
+        background-color: #697086;
+        color: white;
+    }
+
+    /*MAIN CONTENT AREA */
+    #case_main {
+        display: block;
+        width: 80vw;
+        text-align: center;
+    }
+
+    /* footer area */
+    footer {
+        background-color: #D8DAD2;
+        display: block;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 20px;
+        border: none !important;
+        width: 62vw;
+    }
+}
